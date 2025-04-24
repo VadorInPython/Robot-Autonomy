@@ -1,0 +1,456 @@
+[0.139s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.139s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4b42e0fa00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4b430206d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4b430206d0>>)
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.354s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws2'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/Course-34761-robot-autonomy) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/Course-34761-robot-autonomy) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/Course-34761-robot-autonomy) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/Course-34761-robot-autonomy) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/Course-34761-robot-autonomy) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/Course-34761-robot-autonomy) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/Course-34761-robot-autonomy) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/Course-34761-robot-autonomy) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/Course-34761-robot-autonomy) by extension 'ros'
+[0.378s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Course-34761-robot-autonomy' with type 'ros.ament_python' and name 'my_turtlebot'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[0.379s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.433s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ubuntu/ros2_ws2/install
+[0.435s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 344 installed packages in /opt/ros/humble
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.495s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /home/ubuntu/ros2_ws2/install/turtlesim, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.499s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws2/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws2/install/my_package', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws2/src/my_package', 'symlink_install': True, 'test_result_base': None}
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_target' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_clean_first' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'cmake_force_configure' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'ament_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'my_turtlebot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.500s] DEBUG:colcon.colcon_core.verb:Building package 'my_turtlebot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws2/build/my_turtlebot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws2/install/my_turtlebot', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws2/src/Course-34761-robot-autonomy', 'symlink_install': True, 'test_result_base': None}
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.500s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws2/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws2/install/turtlesim', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws2/src/ros_tutorials/turtlesim', 'symlink_install': True, 'test_result_base': None}
+[0.501s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.502s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_ws2/src/my_package' with build type 'ament_python'
+[0.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[0.504s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws2/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[0.508s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.508s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.515s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_ws2/src/Course-34761-robot-autonomy' with build type 'ament_python'
+[0.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_turtlebot', 'ament_prefix_path')
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/hook/ament_prefix_path.ps1'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/hook/ament_prefix_path.dsv'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/hook/ament_prefix_path.sh'
+[0.517s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.518s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws2/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws2/src/ros_tutorials/turtlesim'
+[0.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.865s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws2/src/my_package'
+[0.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.212s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_ws2/src/Course-34761-robot-autonomy'
+[1.212s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.212s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws2/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws2/install/my_turtlebot:/home/ubuntu/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws2/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws2/install/turtlesim
+[1.687s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.688s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_package/share/my_package/package.xml
+[1.688s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_package/lib/my_package/my_node
+[1.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws2/build/my_package': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws2/build/my_package/build --no-deps symlink_data --force
+[1.704s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/ament_index/resource_index/packages/my_turtlebot
+[1.704s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/package.xml
+[1.704s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch/turtlebot_rviz.launch.py
+[1.704s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch/turtlebot_bringup.launch.py
+[1.704s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch/turtlebot_simulation.launch.py
+[1.704s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch/turtlebot_gazebo.launch.py
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/rviz/rviz_launch.rviz
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/worlds/lab_world.world
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/maps/map.yaml
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/maps/map.pgm
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/model.sdf
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/model.config
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails/4.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails/3.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails/1.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails/2.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails/5.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials/textures/cardboard_box.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/meshes/cardboard_box.dae
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/model.sdf
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/model.config
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/4.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/3.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/1.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/2.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/5.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta/4.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta/3.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta/1.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta/2.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta/5.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes/OfficeChairBlue.mtl
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes/OfficeChairBlue.png
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes/OfficeChairBlue.obj
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes/OfficeChairBlue_Col.mtl
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/model-1_3.sdf
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/model.sdf
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/model-1_4.sdf
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/model.config
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes/wheel.dae
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes/chassis.dae
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/model.sdf
+[1.705s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/model-1_4.sdf
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/model.config
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails/4.png
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails/3.png
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails/1.png
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails/2.png
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails/5.png
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/unit_box/model.sdf
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/unit_box/model.config
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/model.sdf
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/model.config
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes/hull.dae
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes/propeller_rl.dae
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes/propeller_fl.dae
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes/propeller_rr.dae
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes/propeller_fr.dae
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/model.sdf
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/model.config
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails/4.png
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails/3.png
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails/1.png
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails/2.png
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails/5.png
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes/monitor.obj
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes/keyboard.mtl
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes/monitor.mtl
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes/keyboard.obj
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/model.sdf
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/model.config
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts/my_marker_5.material
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts/my_marker_2.material
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts/my_marker_stand.material
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts/my_marker_3.material
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts/my_marker_1.material
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts/my_marker_4.material
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures/marker_2.jpg
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures/marker_3.jpg
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures/marker_1.jpg
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures/metal_texture.jpg
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures/marker_4.jpg
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures/marker_5.jpg
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/meshes/marker.dae
+[1.706s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/meshes/marker_stand.dae
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/model.sdf
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/model.config
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails/4.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails/3.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails/1.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails/2.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails/5.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes/hull.dae
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes/propeller_rl.dae
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes/propeller_fl.dae
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes/propeller_rr.dae
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes/propeller_fr.dae
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/model.sdf
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/model.config
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails/4.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails/3.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails/1.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails/2.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails/5.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes/WheelMain.mtl
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes/body.mtl
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes/WheelSide.obj
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes/MiR100_Diffuse.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes/WheelMain.obj
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes/body.obj
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes/WheelSide.mtl
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/model.sdf
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/model.config
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails/4.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails/3.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails/1.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails/2.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails/5.png
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes/TrashBin.mtl
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes/TrashBin.obj
+[1.707s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes/TrashBin_Diffuse.png
+[1.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/model.sdf
+[1.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/model.config
+[1.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails/4.png
+[1.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails/3.png
+[1.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails/1.png
+[1.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails/2.png
+[1.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails/5.png
+[1.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes/rectable.png
+[1.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes/RecTable_Col.obj
+[1.708s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes/RecTable.obj
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes/RecTable_Col.mtl
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes/RecTable.mtl
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/model.sdf
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/model.config
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails/4.png
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails/3.png
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails/1.png
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails/2.png
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails/5.png
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials/textures/Backpack.png
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/meshes/Backpack.dae
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/model-1_3.sdf
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/bookshelf_diffuse.jpg
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/model-1_2.sdf
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/model.sdf
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/model-1_4.sdf
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/model.config
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails/4.png
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails/3.png
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails/1.png
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails/2.png
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails/5.png
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/model.sdf
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/model-1_4.sdf
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/model.config
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/model-1_3.sdf
+[1.709s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/model.sdf
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/model-1_4.sdf
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/model.config
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails/4.png
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails/3.png
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails/1.png
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails/2.png
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails/5.png
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes/wheel.dae
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes/chassis.dae
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/model.sdf
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/model.config
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials/textures/cardboard_box.png
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/meshes/cardboard_box.dae
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/model.sdf
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/model-1_4.sdf
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/model.config
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes/jersey_barrier.dae
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/model.sdf
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/model.config
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts/wall.material
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts/my_ground_plane.material
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures/gray-wall.jpg
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures/MyImage.jpg
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/meshes/chair.dae
+[1.710s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot/lidar_icp
+[1.711s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot/lidar_sub
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws2/build/my_turtlebot': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws2/build/my_turtlebot/build --no-deps symlink_data --force
+[2.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath_develop')
+[2.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/build/my_package/share/my_package/hook/pythonpath_develop.ps1'
+[2.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws2/build/my_package/share/my_package/hook/pythonpath_develop.dsv'
+[2.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/build/my_package/share/my_package/hook/pythonpath_develop.sh'
+[2.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws2/build/my_package' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws2/build/my_package/build --no-deps symlink_data --force
+[2.331s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_package' for CMake module files
+[2.332s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_package' for CMake config files
+[2.333s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_package/lib'
+[2.333s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_package/bin'
+[2.333s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_package/lib/pkgconfig/my_package.pc'
+[2.334s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages'
+[2.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[2.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/my_package/share/my_package/hook/pythonpath.ps1'
+[2.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws2/install/my_package/share/my_package/hook/pythonpath.dsv'
+[2.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/my_package/share/my_package/hook/pythonpath.sh'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_package/bin'
+[2.336s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[2.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/my_package/share/my_package/package.ps1'
+[2.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws2/install/my_package/share/my_package/package.dsv'
+[2.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/my_package/share/my_package/package.sh'
+[2.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/my_package/share/my_package/package.bash'
+[2.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/my_package/share/my_package/package.zsh'
+[2.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws2/install/my_package/share/colcon-core/packages/my_package)
+[2.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_turtlebot', 'pythonpath_develop')
+[2.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/build/my_turtlebot/share/my_turtlebot/hook/pythonpath_develop.ps1'
+[2.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws2/build/my_turtlebot' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros2_ws2/build/my_turtlebot/build --no-deps symlink_data --force
+[2.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws2/build/my_turtlebot/share/my_turtlebot/hook/pythonpath_develop.dsv'
+[2.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/build/my_turtlebot/share/my_turtlebot/hook/pythonpath_develop.sh'
+[2.515s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_turtlebot' for CMake module files
+[2.515s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_turtlebot' for CMake config files
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_turtlebot/lib'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_turtlebot/bin'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/pkgconfig/my_turtlebot.pc'
+[2.521s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages'
+[2.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_turtlebot', 'pythonpath')
+[2.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/hook/pythonpath.ps1'
+[2.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/hook/pythonpath.dsv'
+[2.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/hook/pythonpath.sh'
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/my_turtlebot/bin'
+[2.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_turtlebot)
+[2.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/package.ps1'
+[2.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/package.dsv'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/package.sh'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/package.bash'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/package.zsh'
+[2.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws2/install/my_turtlebot/share/colcon-core/packages/my_turtlebot)
+[3.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws2/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws2/install/my_turtlebot:/home/ubuntu/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws2/src/ros_tutorials/turtlesim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws2/install/turtlesim
+[3.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws2/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws2/install/my_turtlebot:/home/ubuntu/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws2/build/turtlesim -- -j16 -l16
+[3.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws2/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws2/install/my_turtlebot:/home/ubuntu/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws2/build/turtlesim -- -j16 -l16
+[3.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/turtlesim' for CMake module files
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/turtlesim' for CMake config files
+[3.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws2/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[3.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[3.219s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/turtlesim/lib'
+[3.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[3.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_ws2/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_ws2/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[3.220s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/turtlesim/bin'
+[3.220s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[3.221s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/turtlesim/lib/python3.10/site-packages'
+[3.221s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws2/install/turtlesim/bin'
+[3.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/turtlesim/share/turtlesim/package.ps1'
+[3.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws2/install/turtlesim/share/turtlesim/package.dsv'
+[3.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/turtlesim/share/turtlesim/package.sh'
+[3.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/turtlesim/share/turtlesim/package.bash'
+[3.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws2/install/turtlesim/share/turtlesim/package.zsh'
+[3.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws2/install/turtlesim/share/colcon-core/packages/turtlesim)
+[3.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.238s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.238s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.238s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.244s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.244s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.244s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.408s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws2/install/local_setup.ps1'
+[3.410s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws2/install/_local_setup_util_ps1.py'
+[3.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws2/install/setup.ps1'
+[3.413s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws2/install/local_setup.sh'
+[3.413s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws2/install/_local_setup_util_sh.py'
+[3.414s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws2/install/setup.sh'
+[3.415s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws2/install/local_setup.bash'
+[3.415s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws2/install/setup.bash'
+[3.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws2/install/local_setup.zsh'
+[3.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws2/install/setup.zsh'

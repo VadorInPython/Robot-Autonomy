@@ -1,0 +1,13 @@
+[console_scripts]
+counter_based_mapper = my_turtlebot.counter_based_mapper:main
+integrated_localization_mapper = my_turtlebot.integrated_loc_mapper:main
+lidar_icp = my_turtlebot.lidar_icp:main
+lidar_sub = my_turtlebot.lidar_sub:main
+map_lidar = my_turtlebot.map_lidar:main
+map_lidar_static = my_turtlebot.map_lidar_static:main
+map_random = my_turtlebot.map_random:main
+move_turtlebot = my_turtlebot.move_robot:main
+odometry_mapper = my_turtlebot.odometry_mapper:main
+particle_sub = my_turtlebot.particle_sub:main
+prm_generator = my_turtlebot.prm_generator:main
+

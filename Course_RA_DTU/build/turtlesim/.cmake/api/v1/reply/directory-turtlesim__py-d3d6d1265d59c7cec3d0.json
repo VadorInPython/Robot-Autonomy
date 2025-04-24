@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "turtlesim__py",
+		"source" : "/home/ubuntu/ros2_ws2/build/turtlesim/turtlesim__py"
+	}
+}

@@ -1,0 +1,348 @@
+[0.000000] (-) TimerEvent: {}
+[0.000934] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000993] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001039] (my_turtlebot) JobQueued: {'identifier': 'my_turtlebot', 'dependencies': OrderedDict()}
+[0.001080] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.015218] (my_turtlebot) JobStarted: {'identifier': 'my_turtlebot'}
+[0.099189] (-) TimerEvent: {}
+[0.199888] (-) TimerEvent: {}
+[0.300522] (-) TimerEvent: {}
+[0.401205] (-) TimerEvent: {}
+[0.501966] (-) TimerEvent: {}
+[0.602777] (-) TimerEvent: {}
+[0.703937] (-) TimerEvent: {}
+[0.805772] (-) TimerEvent: {}
+[0.906367] (-) TimerEvent: {}
+[1.007018] (-) TimerEvent: {}
+[1.107689] (-) TimerEvent: {}
+[1.208369] (-) TimerEvent: {}
+[1.309074] (-) TimerEvent: {}
+[1.312995] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/ubuntu/ros2_ws2/build/my_package/build', 'install', '--record', '/home/ubuntu/ros2_ws2/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws2/src/my_package', 'env': {'VNCDESKTOP': '1cc0d2700112:1 (ubuntu)', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '1cc0d2700112', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws2/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws2/src/Course-34761-robot-autonomy', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-dmHL0KkF1S,guid=3bec126c953507a817f8a3dd67c5bcdb', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '592', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-PO5P22', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws2/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/1cc0d2700112:@/tmp/.ICE-unix/75,unix/1cc0d2700112:/tmp/.ICE-unix/75', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-PO5P22/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws2/install/turtlesim:/home/ubuntu/ros2_ws2/install/my_turtlebot:/home/ubuntu/ros2_ws2/install/my_package:/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:5968c69c-5cdd-4ab7-a457-46cd712372e7', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/ros2_ws2/build/my_package', 'PYTHONPATH': '/home/ubuntu/ros2_ws2/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages:/home/ubuntu/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages:/home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws2/install/turtlesim', 'QT_FONT_DPI': '96'}, 'shell': False}
+[1.326729] (my_turtlebot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_turtlebot', 'build', '--build-base', '/home/ubuntu/ros2_ws2/build/my_turtlebot/build', 'install', '--record', '/home/ubuntu/ros2_ws2/build/my_turtlebot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws2/src/Course-34761-robot-autonomy', 'env': {'VNCDESKTOP': '1cc0d2700112:1 (ubuntu)', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'HOSTNAME': '1cc0d2700112', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws2/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws2/src/Course-34761-robot-autonomy', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-dmHL0KkF1S,guid=3bec126c953507a817f8a3dd67c5bcdb', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '592', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-PO5P22', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws2/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/1cc0d2700112:@/tmp/.ICE-unix/75,unix/1cc0d2700112:/tmp/.ICE-unix/75', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-PO5P22/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws2/install/turtlesim:/home/ubuntu/ros2_ws2/install/my_turtlebot:/home/ubuntu/ros2_ws2/install/my_package:/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:5968c69c-5cdd-4ab7-a457-46cd712372e7', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/ros2_ws2/build/my_turtlebot', 'PYTHONPATH': '/home/ubuntu/ros2_ws2/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages:/home/ubuntu/ros2_ws2/install/turtlesim/local/lib/python3.10/dist-packages:/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages:/home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws2/install/turtlesim', 'QT_FONT_DPI': '96'}, 'shell': False}
+[1.409681] (-) TimerEvent: {}
+[1.510169] (-) TimerEvent: {}
+[1.602306] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.603188] (my_package) StdoutLine: {'line': b'creating ../../build/my_package/my_package.egg-info\n'}
+[1.603898] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[1.604225] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[1.604533] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[1.604716] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[1.604991] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[1.605074] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[1.607408] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[1.607887] (my_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.608168] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[1.608294] (my_package) StdoutLine: {'line': b'running build\n'}
+[1.608406] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[1.608806] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/build/my_package/build\n'}
+[1.609052] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/build/my_package/build/lib\n'}
+[1.609403] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/build/my_package/build/lib/my_package\n'}
+[1.609699] (my_package) StdoutLine: {'line': b'copying my_package/my_node.py -> /home/ubuntu/ros2_ws2/build/my_package/build/lib/my_package\n'}
+[1.610258] (-) TimerEvent: {}
+[1.616425] (my_package) StdoutLine: {'line': b'copying my_package/__init__.py -> /home/ubuntu/ros2_ws2/build/my_package/build/lib/my_package\n'}
+[1.616670] (my_package) StdoutLine: {'line': b'running install\n'}
+[1.616984] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.617734] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[1.618105] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws2/build/my_package/build/lib/my_package/my_node.py -> /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[1.618300] (my_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws2/build/my_package/build/lib/my_package/__init__.py -> /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[1.618854] (my_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc\n'}
+[1.619152] (my_turtlebot) StdoutLine: {'line': b'running egg_info\n'}
+[1.619768] (my_turtlebot) StdoutLine: {'line': b'creating ../../build/my_turtlebot/my_turtlebot.egg-info\n'}
+[1.620208] (my_turtlebot) StdoutLine: {'line': b'writing ../../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO\n'}
+[1.620480] (my_turtlebot) StdoutLine: {'line': b'writing dependency_links to ../../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt\n'}
+[1.620685] (my_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc\n'}
+[1.620835] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[1.621147] (my_turtlebot) StdoutLine: {'line': b'writing entry points to ../../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt\n'}
+[1.621378] (my_turtlebot) StdoutLine: {'line': b'writing requirements to ../../build/my_turtlebot/my_turtlebot.egg-info/requires.txt\n'}
+[1.621483] (my_turtlebot) StdoutLine: {'line': b'writing top-level names to ../../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt\n'}
+[1.621641] (my_turtlebot) StdoutLine: {'line': b"writing manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[1.621771] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_package/share/ament_index\n'}
+[1.621892] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_package/share/ament_index/resource_index\n'}
+[1.622120] (my_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_package/share/ament_index/resource_index/packages\n'}
+[1.622215] (my_package) StdoutLine: {'line': b'copying resource/my_package -> /home/ubuntu/ros2_ws2/install/my_package/share/ament_index/resource_index/packages\n'}
+[1.622287] (my_package) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws2/install/my_package/share/my_package\n'}
+[1.622351] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.625241] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[1.625866] (my_turtlebot) StdoutLine: {'line': b"reading manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[1.626744] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.628063] (my_turtlebot) StdoutLine: {'line': b"writing manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[1.628448] (my_turtlebot) StdoutLine: {'line': b'running build\n'}
+[1.628705] (my_turtlebot) StdoutLine: {'line': b'running build_py\n'}
+[1.628792] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/build/my_turtlebot/build\n'}
+[1.628854] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/build/my_turtlebot/build/lib\n'}
+[1.629090] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/build/my_turtlebot/build/lib/my_turtlebot\n'}
+[1.629295] (my_turtlebot) StdoutLine: {'line': b'copying my_turtlebot/lidar_sub.py -> /home/ubuntu/ros2_ws2/build/my_turtlebot/build/lib/my_turtlebot\n'}
+[1.629766] (my_turtlebot) StdoutLine: {'line': b'copying my_turtlebot/__init__.py -> /home/ubuntu/ros2_ws2/build/my_turtlebot/build/lib/my_turtlebot\n'}
+[1.630019] (my_turtlebot) StdoutLine: {'line': b'running install\n'}
+[1.630359] (my_turtlebot) StdoutLine: {'line': b'running install_lib\n'}
+[1.631167] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot\n'}
+[1.631417] (my_turtlebot) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws2/build/my_turtlebot/build/lib/my_turtlebot/lidar_sub.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot\n'}
+[1.631658] (my_turtlebot) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws2/build/my_turtlebot/build/lib/my_turtlebot/__init__.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot\n'}
+[1.632179] (my_turtlebot) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot/lidar_sub.py to lidar_sub.cpython-310.pyc\n'}
+[1.632836] (my_turtlebot) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot/__init__.py to __init__.cpython-310.pyc\n'}
+[1.633031] (my_turtlebot) StdoutLine: {'line': b'running install_data\n'}
+[1.633395] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/ament_index\n'}
+[1.633607] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/ament_index/resource_index\n'}
+[1.633721] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/ament_index/resource_index/packages\n'}
+[1.633977] (my_turtlebot) StdoutLine: {'line': b'copying resource/my_turtlebot -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/ament_index/resource_index/packages\n'}
+[1.634061] (my_turtlebot) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot\n'}
+[1.634333] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[1.634430] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_rviz.launch.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[1.634858] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_bringup.launch.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[1.635186] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_simulation.launch.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[1.635603] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_gazebo.launch.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[1.636042] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/rviz\n'}
+[1.636352] (my_turtlebot) StdoutLine: {'line': b'copying rviz/rviz_launch.rviz -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/rviz\n'}
+[1.636780] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/worlds\n'}
+[1.637078] (my_turtlebot) StdoutLine: {'line': b'copying worlds/lab_world.world -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/worlds\n'}
+[1.638161] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/maps\n'}
+[1.638387] (my_turtlebot) StdoutLine: {'line': b'copying maps/map.yaml -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/maps\n'}
+[1.638739] (my_turtlebot) StdoutLine: {'line': b'copying maps/map.pgm -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/maps\n'}
+[1.639396] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models\n'}
+[1.639680] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box\n'}
+[1.639869] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box\n'}
+[1.640235] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box\n'}
+[1.640605] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[1.640825] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[1.641525] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[1.642420] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[1.643466] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[1.644297] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[1.645061] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials\n'}
+[1.645299] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials/textures\n'}
+[1.645559] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/materials/textures/cardboard_box.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials/textures\n'}
+[1.646677] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/meshes\n'}
+[1.646967] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/meshes/cardboard_box.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/meshes\n'}
+[1.647342] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue\n'}
+[1.647622] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue\n'}
+[1.647956] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue\n'}
+[1.648274] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[1.648554] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[1.649165] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[1.649383] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/ubuntu/ros2_ws2/install/my_package/lib/my_package\n'}
+[1.649772] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[1.649951] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws2/build/my_package/install.log'\n"}
+[1.650500] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[1.651062] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[1.651538] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[1.651823] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[1.652348] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[1.652808] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[1.653231] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[1.653673] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[1.654191] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[1.654516] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[1.654865] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[1.655260] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[1.656091] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[1.656620] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue_Col.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[1.657071] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[1.657439] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model-1_3.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[1.657805] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[1.658105] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[1.658435] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[1.658759] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes\n'}
+[1.659092] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/meshes/wheel.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes\n'}
+[1.659484] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/meshes/chassis.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes\n'}
+[1.660302] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[1.660635] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[1.661010] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[1.661381] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[1.662276] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.662436] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.662693] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.662886] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.663086] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.663378] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.663721] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/unit_box\n'}
+[1.664006] (my_turtlebot) StdoutLine: {'line': b'copying models/unit_box/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/unit_box\n'}
+[1.664435] (my_turtlebot) StdoutLine: {'line': b'copying models/unit_box/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/unit_box\n'}
+[1.664822] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2\n'}
+[1.665134] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2\n'}
+[1.665516] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2\n'}
+[1.666132] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[1.666605] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/hull.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[1.671332] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_rl.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[1.672294] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_fl.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[1.674584] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_rr.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[1.675362] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_fr.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[1.676189] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard\n'}
+[1.676517] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard\n'}
+[1.676931] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard\n'}
+[1.677261] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.677678] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.678619] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.679245] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.679536] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.680114] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.680265] (my_package) CommandEnded: {'returncode': 0}
+[1.680759] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[1.680903] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/monitor.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[1.681196] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/keyboard.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[1.681336] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/monitor.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[1.681696] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/keyboard.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[1.681956] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker\n'}
+[1.682623] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker\n'}
+[1.682888] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker\n'}
+[1.683024] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials\n'}
+[1.683498] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[1.683795] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_5.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[1.684516] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_2.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[1.685053] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_stand.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[1.685413] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_3.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[1.685620] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_1.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[1.685740] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_4.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[1.685869] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[1.686187] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_2.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[1.686935] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_3.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[1.689446] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_1.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[1.690442] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/metal_texture.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[1.691863] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_4.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[1.692130] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_5.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[1.694196] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/meshes\n'}
+[1.694346] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/meshes/marker.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/meshes\n'}
+[1.695349] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/meshes/marker_stand.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/meshes\n'}
+[1.695499] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2\n'}
+[1.695751] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2\n'}
+[1.696156] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2\n'}
+[1.696956] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.697142] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.697409] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.697551] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.697998] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.699023] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.699190] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[1.699399] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/hull.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[1.702051] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.703584] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_rl.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[1.704431] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_fl.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[1.705427] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_rr.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[1.706308] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_fr.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[1.707048] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100\n'}
+[1.707292] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100\n'}
+[1.707652] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100\n'}
+[1.707985] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[1.708215] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[1.708789] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[1.709152] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[1.709573] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[1.709860] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[1.710152] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[1.710355] (-) TimerEvent: {}
+[1.710508] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelMain.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[1.710729] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/body.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[1.711073] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelSide.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[1.711409] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/MiR100_Diffuse.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[1.713568] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelMain.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[1.713993] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/body.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[1.714851] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelSide.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[1.715332] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin\n'}
+[1.715872] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin\n'}
+[1.716250] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin\n'}
+[1.716588] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[1.716821] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[1.717458] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[1.718201] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[1.718919] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[1.719867] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[1.720564] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[1.720800] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/meshes/TrashBin.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[1.721116] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/meshes/TrashBin.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[1.721488] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/meshes/TrashBin_Diffuse.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[1.723177] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable\n'}
+[1.723410] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable\n'}
+[1.723761] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable\n'}
+[1.724111] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.724376] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.724831] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.725235] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.725595] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.725967] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.726517] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.726898] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/rectable.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.729997] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable_Col.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.730324] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.730692] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable_Col.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.731043] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.731325] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack\n'}
+[1.731616] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack\n'}
+[1.732009] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack\n'}
+[1.732452] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[1.732654] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[1.733506] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[1.734193] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[1.735036] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[1.735730] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[1.736547] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials\n'}
+[1.736815] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials/textures\n'}
+[1.737046] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/materials/textures/Backpack.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials/textures\n'}
+[1.740347] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/meshes\n'}
+[1.740603] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/meshes/Backpack.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/meshes\n'}
+[1.741651] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[1.741919] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model-1_3.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[1.742342] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/bookshelf_diffuse.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[1.743802] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model-1_2.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[1.744135] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[1.744523] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[1.744831] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[1.745152] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[1.745389] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[1.746224] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[1.746962] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[1.747992] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[1.748945] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[1.749806] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[1.750066] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[1.750398] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[1.750711] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[1.751122] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes\n'}
+[1.751459] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes\n'}
+[1.752135] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[1.752353] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model-1_3.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[1.752767] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[1.753206] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[1.753627] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[1.754089] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.754358] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.754923] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.755317] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.757074] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.757587] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.757895] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes\n'}
+[1.758175] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/meshes/wheel.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes\n'}
+[1.758543] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/meshes/chassis.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes\n'}
+[1.759173] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box\n'}
+[1.759428] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box\n'}
+[1.759795] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box\n'}
+[1.760085] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials\n'}
+[1.760311] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials/textures\n'}
+[1.760528] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/materials/textures/cardboard_box.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials/textures\n'}
+[1.762022] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/meshes\n'}
+[1.762244] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/meshes/cardboard_box.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/meshes\n'}
+[1.762630] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[1.762952] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[1.763292] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[1.763584] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[1.763973] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes\n'}
+[1.764179] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/meshes/jersey_barrier.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes\n'}
+[1.764736] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project\n'}
+[1.765079] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project\n'}
+[1.765571] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project\n'}
+[1.765926] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials\n'}
+[1.766207] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts\n'}
+[1.766580] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/scripts/wall.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts\n'}
+[1.767001] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/scripts/my_ground_plane.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts\n'}
+[1.767445] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures\n'}
+[1.767873] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/textures/gray-wall.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures\n'}
+[1.783836] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/textures/MyImage.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures\n'}
+[1.787954] (my_turtlebot) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/meshes\n'}
+[1.788261] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/meshes/chair.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/meshes\n'}
+[1.791790] (my_turtlebot) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.793851] (my_turtlebot) StdoutLine: {'line': b'Copying ../../build/my_turtlebot/my_turtlebot.egg-info to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info\n'}
+[1.795710] (my_turtlebot) StdoutLine: {'line': b'running install_scripts\n'}
+[1.810541] (-) TimerEvent: {}
+[1.816987] (my_turtlebot) StdoutLine: {'line': b'Installing lidar_subscriber script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot\n'}
+[1.817778] (my_turtlebot) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws2/build/my_turtlebot/install.log'\n"}
+[1.850693] (my_turtlebot) CommandEnded: {'returncode': 0}
+[1.859664] (my_turtlebot) JobEnded: {'identifier': 'my_turtlebot', 'rc': 0}
+[1.860753] (-) EventReactorShutdown: {}

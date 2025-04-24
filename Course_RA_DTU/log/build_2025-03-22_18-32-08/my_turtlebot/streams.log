@@ -1,0 +1,32 @@
+[0.798s] Invoking command in '/home/ubuntu/ros2_ws2/src/Course-34761-robot-autonomy': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot build --build-base /home/ubuntu/ros2_ws2/build/my_turtlebot/build install --record /home/ubuntu/ros2_ws2/build/my_turtlebot/install.log --single-version-externally-managed install_data
+[1.101s] running egg_info
+[1.103s] writing ../../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO
+[1.103s] writing dependency_links to ../../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt
+[1.103s] writing entry points to ../../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt
+[1.103s] writing requirements to ../../build/my_turtlebot/my_turtlebot.egg-info/requires.txt
+[1.103s] writing top-level names to ../../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt
+[1.107s] reading manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[1.112s] writing manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[1.112s] running build
+[1.112s] running build_py
+[1.113s] copying my_turtlebot/counter_based_mapper.py -> /home/ubuntu/ros2_ws2/build/my_turtlebot/build/lib/my_turtlebot
+[1.114s] running install
+[1.115s] running install_lib
+[1.116s] copying /home/ubuntu/ros2_ws2/build/my_turtlebot/build/lib/my_turtlebot/counter_based_mapper.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot
+[1.117s] byte-compiling /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot/counter_based_mapper.py to counter_based_mapper.cpython-310.pyc
+[1.120s] running install_data
+[1.126s] running install_egg_info
+[1.128s] removing '/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.129s] Copying ../../build/my_turtlebot/my_turtlebot.egg-info to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info
+[1.130s] running install_scripts
+[1.158s] Installing counter_based_mapper script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[1.158s] Installing lidar_icp script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[1.158s] Installing lidar_sub script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[1.159s] Installing map_lidar script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[1.159s] Installing map_lidar_static script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[1.159s] Installing map_random script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[1.159s] Installing move_turtlebot script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[1.160s] Installing odometry_mapper script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[1.160s] Installing particle_sub script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[1.160s] writing list of installed files to '/home/ubuntu/ros2_ws2/build/my_turtlebot/install.log'
+[1.196s] Invoked command in '/home/ubuntu/ros2_ws2/src/Course-34761-robot-autonomy' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot build --build-base /home/ubuntu/ros2_ws2/build/my_turtlebot/build install --record /home/ubuntu/ros2_ws2/build/my_turtlebot/install.log --single-version-externally-managed install_data

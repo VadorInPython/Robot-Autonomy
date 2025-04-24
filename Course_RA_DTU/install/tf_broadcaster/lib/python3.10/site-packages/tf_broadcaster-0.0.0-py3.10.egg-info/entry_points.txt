@@ -1,0 +1,4 @@
+[console_scripts]
+broadcaster = tf_broadcaster.broadcaster:main
+listener = tf_broadcaster.listener:main
+

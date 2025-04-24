@@ -1,0 +1,9 @@
+[1.240s] Invoking command in '/home/ubuntu/ros2_ws2/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws2/install/my_turtlebot:/home/ubuntu/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws2/build/turtlesim -- -j16 -l16
+[1.414s] failed to create symbolic link '/home/ubuntu/ros2_ws2/build/turtlesim/ament_cmake_python/turtlesim/turtlesim' because existing path cannot be removed: Is a directory
+[1.414s] [  1%] Built target turtlesim__cpp
+[1.416s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_turtlesim] Error 1
+[1.416s] gmake[1]: *** [CMakeFiles/Makefile2:429: CMakeFiles/ament_cmake_python_symlink_turtlesim.dir/all] Error 2
+[1.416s] gmake[1]: *** Waiting for unfinished jobs....
+[1.426s] [ 11%] Built target turtlesim__rosidl_generator_c
+[1.429s] gmake: *** [Makefile:146: all] Error 2
+[1.435s] Invoked command in '/home/ubuntu/ros2_ws2/build/turtlesim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws2/install/my_turtlebot:/home/ubuntu/ros2_ws2/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws2/build/turtlesim -- -j16 -l16

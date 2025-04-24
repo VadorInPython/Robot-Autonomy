@@ -1,0 +1,3 @@
+[console_scripts]
+broadcaster = tf2_workshop.broadcaster:main
+

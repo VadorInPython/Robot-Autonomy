@@ -1,0 +1,33 @@
+[0.686s] Invoking command in '/home/ubuntu/ros2_ws2/src/tf_broadcaster': PYTHONPATH=/home/ubuntu/ros2_ws2/build/tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_broadcaster build --build-base /home/ubuntu/ros2_ws2/build/tf_broadcaster/build install --record /home/ubuntu/ros2_ws2/build/tf_broadcaster/install.log --single-version-externally-managed install_data
+[0.935s] running egg_info
+[0.935s] creating ../../build/tf_broadcaster/tf_broadcaster.egg-info
+[0.936s] writing ../../build/tf_broadcaster/tf_broadcaster.egg-info/PKG-INFO
+[0.936s] writing dependency_links to ../../build/tf_broadcaster/tf_broadcaster.egg-info/dependency_links.txt
+[0.936s] writing entry points to ../../build/tf_broadcaster/tf_broadcaster.egg-info/entry_points.txt
+[0.936s] writing requirements to ../../build/tf_broadcaster/tf_broadcaster.egg-info/requires.txt
+[0.936s] writing top-level names to ../../build/tf_broadcaster/tf_broadcaster.egg-info/top_level.txt
+[0.936s] writing manifest file '../../build/tf_broadcaster/tf_broadcaster.egg-info/SOURCES.txt'
+[0.938s] reading manifest file '../../build/tf_broadcaster/tf_broadcaster.egg-info/SOURCES.txt'
+[0.938s] writing manifest file '../../build/tf_broadcaster/tf_broadcaster.egg-info/SOURCES.txt'
+[0.939s] running build
+[0.939s] running build_py
+[0.939s] creating /home/ubuntu/ros2_ws2/build/tf_broadcaster/build
+[0.939s] creating /home/ubuntu/ros2_ws2/build/tf_broadcaster/build/lib
+[0.939s] creating /home/ubuntu/ros2_ws2/build/tf_broadcaster/build/lib/tf_broadcaster
+[0.940s] copying tf_broadcaster/__init__.py -> /home/ubuntu/ros2_ws2/build/tf_broadcaster/build/lib/tf_broadcaster
+[0.940s] running install
+[0.940s] running install_lib
+[0.942s] creating /home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages/tf_broadcaster
+[0.943s] copying /home/ubuntu/ros2_ws2/build/tf_broadcaster/build/lib/tf_broadcaster/__init__.py -> /home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages/tf_broadcaster
+[0.943s] byte-compiling /home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages/tf_broadcaster/__init__.py to __init__.cpython-310.pyc
+[0.943s] running install_data
+[0.944s] creating /home/ubuntu/ros2_ws2/install/tf_broadcaster/share/ament_index
+[0.944s] creating /home/ubuntu/ros2_ws2/install/tf_broadcaster/share/ament_index/resource_index
+[0.944s] creating /home/ubuntu/ros2_ws2/install/tf_broadcaster/share/ament_index/resource_index/packages
+[0.945s] copying resource/tf_broadcaster -> /home/ubuntu/ros2_ws2/install/tf_broadcaster/share/ament_index/resource_index/packages
+[0.945s] copying package.xml -> /home/ubuntu/ros2_ws2/install/tf_broadcaster/share/tf_broadcaster
+[0.945s] running install_egg_info
+[0.948s] Copying ../../build/tf_broadcaster/tf_broadcaster.egg-info to /home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages/tf_broadcaster-0.0.0-py3.10.egg-info
+[0.949s] running install_scripts
+[0.972s] writing list of installed files to '/home/ubuntu/ros2_ws2/build/tf_broadcaster/install.log'
+[1.021s] Invoked command in '/home/ubuntu/ros2_ws2/src/tf_broadcaster' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws2/build/tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_broadcaster build --build-base /home/ubuntu/ros2_ws2/build/tf_broadcaster/build install --record /home/ubuntu/ros2_ws2/build/tf_broadcaster/install.log --single-version-externally-managed install_data

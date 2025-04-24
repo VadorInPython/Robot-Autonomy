@@ -1,0 +1,30 @@
+[0.624s] Invoking command in '/home/ubuntu/ros2_ws2/src/Course-34761-robot-autonomy': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot build --build-base /home/ubuntu/ros2_ws2/build/my_turtlebot/build install --record /home/ubuntu/ros2_ws2/build/my_turtlebot/install.log --single-version-externally-managed install_data
+[0.841s] running egg_info
+[0.842s] writing ../../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO
+[0.842s] writing dependency_links to ../../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt
+[0.842s] writing entry points to ../../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt
+[0.843s] writing requirements to ../../build/my_turtlebot/my_turtlebot.egg-info/requires.txt
+[0.843s] writing top-level names to ../../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt
+[0.845s] reading manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[0.851s] writing manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[0.851s] running build
+[0.851s] running build_py
+[0.851s] copying my_turtlebot/particle_sub.py -> /home/ubuntu/ros2_ws2/build/my_turtlebot/build/lib/my_turtlebot
+[0.852s] running install
+[0.853s] running install_lib
+[0.854s] copying /home/ubuntu/ros2_ws2/build/my_turtlebot/build/lib/my_turtlebot/particle_sub.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot
+[0.855s] byte-compiling /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot/particle_sub.py to particle_sub.cpython-310.pyc
+[0.857s] running install_data
+[0.863s] running install_egg_info
+[0.864s] removing '/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.865s] Copying ../../build/my_turtlebot/my_turtlebot.egg-info to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info
+[0.867s] running install_scripts
+[0.885s] Installing lidar_icp script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[0.885s] Installing lidar_sub script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[0.885s] Installing map_lidar script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[0.886s] Installing map_lidar_static script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[0.886s] Installing map_random script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[0.886s] Installing move_turtlebot script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[0.887s] Installing particle_sub script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+[0.887s] writing list of installed files to '/home/ubuntu/ros2_ws2/build/my_turtlebot/install.log'
+[0.912s] Invoked command in '/home/ubuntu/ros2_ws2/src/Course-34761-robot-autonomy' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot build --build-base /home/ubuntu/ros2_ws2/build/my_turtlebot/build install --record /home/ubuntu/ros2_ws2/build/my_turtlebot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,200 @@
+running develop
+running egg_info
+writing my_turtlebot.egg-info/PKG-INFO
+writing dependency_links to my_turtlebot.egg-info/dependency_links.txt
+writing entry points to my_turtlebot.egg-info/entry_points.txt
+writing requirements to my_turtlebot.egg-info/requires.txt
+writing top-level names to my_turtlebot.egg-info/top_level.txt
+reading manifest file 'my_turtlebot.egg-info/SOURCES.txt'
+writing manifest file 'my_turtlebot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/python3.10/site-packages/my-turtlebot.egg-link (link to .)
+Installing lidar_icp script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+Installing lidar_sub script to /home/ubuntu/ros2_ws2/install/my_turtlebot/lib/my_turtlebot
+
+Installed /home/ubuntu/ros2_ws2/build/my_turtlebot
+running symlink_data
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/resource/my_turtlebot -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/package.xml -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/launch/turtlebot_rviz.launch.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/launch/turtlebot_bringup.launch.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/launch/turtlebot_simulation.launch.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/launch/turtlebot_gazebo.launch.py -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/launch
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/rviz/rviz_launch.rviz -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/rviz
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/worlds/lab_world.world -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/worlds
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/maps/map.yaml -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/maps
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/maps/map.pgm -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/maps
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Cardboard box/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Cardboard box/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Cardboard box/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Cardboard box/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Cardboard box/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Cardboard box/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Cardboard box/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Cardboard box/materials/textures/cardboard_box.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials/textures
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Cardboard box/meshes/cardboard_box.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/thumbnails/meta/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/thumbnails/meta/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/thumbnails/meta/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/thumbnails/meta/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/thumbnails/meta/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/meshes/OfficeChairBlue.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/meshes/OfficeChairBlue.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/meshes/OfficeChairBlue.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/OfficeChairBlue/meshes/OfficeChairBlue_Col.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/pioneer3at/model-1_3.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/pioneer3at/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/pioneer3at/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/pioneer3at/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/pioneer3at/meshes/wheel.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/pioneer3at/meshes/chassis.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/DRC_Practice_135_degree_barriers/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/DRC_Practice_135_degree_barriers/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/DRC_Practice_135_degree_barriers/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/unit_box/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/unit_box
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/unit_box/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/unit_box
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/parrot_bebop_2/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/parrot_bebop_2/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/parrot_bebop_2/meshes/hull.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/parrot_bebop_2/meshes/propeller_rl.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/parrot_bebop_2/meshes/propeller_fl.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/parrot_bebop_2/meshes/propeller_rr.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/parrot_bebop_2/meshes/propeller_fr.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MonitorAndKeyboard/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MonitorAndKeyboard/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MonitorAndKeyboard/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MonitorAndKeyboard/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MonitorAndKeyboard/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MonitorAndKeyboard/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MonitorAndKeyboard/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MonitorAndKeyboard/meshes/monitor.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MonitorAndKeyboard/meshes/keyboard.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MonitorAndKeyboard/meshes/monitor.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MonitorAndKeyboard/meshes/keyboard.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/scripts/my_marker_5.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/scripts/my_marker_2.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/scripts/my_marker_stand.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/scripts/my_marker_3.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/scripts/my_marker_1.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/scripts/my_marker_4.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/textures/marker_2.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/textures/marker_3.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/textures/marker_1.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/textures/metal_texture.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/textures/marker_4.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/materials/textures/marker_5.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/meshes/marker.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/marker/meshes/marker_stand.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/marker/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/meshes/hull.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/meshes/propeller_rl.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/meshes/propeller_fl.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/meshes/propeller_rr.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Parrot Bebop 2/meshes/propeller_fr.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/meshes/WheelMain.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/meshes/body.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/meshes/WheelSide.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/meshes/MiR100_Diffuse.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/meshes/WheelMain.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/meshes/body.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/MiR100/meshes/WheelSide.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/TrashBin/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/TrashBin/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/TrashBin/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/TrashBin/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/TrashBin/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/TrashBin/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/TrashBin/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/TrashBin/meshes/TrashBin.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/TrashBin/meshes/TrashBin.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/TrashBin/meshes/TrashBin_Diffuse.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/meshes/rectable.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/meshes/RecTable_Col.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/meshes/RecTable.obj -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/meshes/RecTable_Col.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/RecTable/meshes/RecTable.mtl -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Backpack/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Backpack/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Backpack/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Backpack/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Backpack/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Backpack/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Backpack/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Backpack/materials/textures/Backpack.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials/textures
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Backpack/meshes/Backpack.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Backpack/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Bookshelf/model-1_3.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Bookshelf/bookshelf_diffuse.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Bookshelf/model-1_2.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Bookshelf/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Bookshelf/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Bookshelf/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Bookshelf/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Bookshelf/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Bookshelf/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Bookshelf/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Bookshelf/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Drc_practice_orange_jersey_barrier/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Drc_practice_orange_jersey_barrier/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Drc_practice_orange_jersey_barrier/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Pioneer 3AT/model-1_3.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Pioneer 3AT/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Pioneer 3AT/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Pioneer 3AT/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Pioneer 3AT/thumbnails/4.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Pioneer 3AT/thumbnails/3.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Pioneer 3AT/thumbnails/1.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Pioneer 3AT/thumbnails/2.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Pioneer 3AT/thumbnails/5.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Pioneer 3AT/meshes/wheel.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/Pioneer 3AT/meshes/chassis.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/cardboard_box/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/cardboard_box/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/cardboard_box/materials/textures/cardboard_box.png -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials/textures
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/cardboard_box/meshes/cardboard_box.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/drc_practice_yellow_jersey_barrier/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/drc_practice_yellow_jersey_barrier/model-1_4.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/drc_practice_yellow_jersey_barrier/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes/jersey_barrier.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/final_project/model.sdf -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/final_project/model.config -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/final_project/materials/scripts/wall.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/final_project/materials/scripts/my_ground_plane.material -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/final_project/materials/textures/gray-wall.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/final_project/materials/textures/MyImage.jpg -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures
+symbolically linking /home/ubuntu/ros2_ws2/build/my_turtlebot/models/final_project/meshes/chair.dae -> /home/ubuntu/ros2_ws2/install/my_turtlebot/share/my_turtlebot/models/final_project/meshes

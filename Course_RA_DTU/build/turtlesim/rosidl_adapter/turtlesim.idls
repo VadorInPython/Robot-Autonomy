@@ -1,0 +1,8 @@
+/home/ubuntu/ros2_ws2/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/ubuntu/ros2_ws2/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/ubuntu/ros2_ws2/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/ubuntu/ros2_ws2/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/ubuntu/ros2_ws2/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/ubuntu/ros2_ws2/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/ubuntu/ros2_ws2/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/ubuntu/ros2_ws2/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

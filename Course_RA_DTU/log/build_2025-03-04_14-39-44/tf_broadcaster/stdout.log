@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/tf_broadcaster/tf_broadcaster.egg-info/PKG-INFO
+writing dependency_links to ../../build/tf_broadcaster/tf_broadcaster.egg-info/dependency_links.txt
+writing entry points to ../../build/tf_broadcaster/tf_broadcaster.egg-info/entry_points.txt
+writing requirements to ../../build/tf_broadcaster/tf_broadcaster.egg-info/requires.txt
+writing top-level names to ../../build/tf_broadcaster/tf_broadcaster.egg-info/top_level.txt
+reading manifest file '../../build/tf_broadcaster/tf_broadcaster.egg-info/SOURCES.txt'
+writing manifest file '../../build/tf_broadcaster/tf_broadcaster.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tf_broadcaster/listener.py -> /home/ubuntu/ros2_ws2/build/tf_broadcaster/build/lib/tf_broadcaster
+copying tf_broadcaster/broadcaster.py -> /home/ubuntu/ros2_ws2/build/tf_broadcaster/build/lib/tf_broadcaster
+running install
+running install_lib
+copying /home/ubuntu/ros2_ws2/build/tf_broadcaster/build/lib/tf_broadcaster/listener.py -> /home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages/tf_broadcaster
+copying /home/ubuntu/ros2_ws2/build/tf_broadcaster/build/lib/tf_broadcaster/broadcaster.py -> /home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages/tf_broadcaster
+byte-compiling /home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages/tf_broadcaster/listener.py to listener.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages/tf_broadcaster/broadcaster.py to broadcaster.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages/tf_broadcaster-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tf_broadcaster/tf_broadcaster.egg-info to /home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/python3.10/site-packages/tf_broadcaster-0.0.0-py3.10.egg-info
+running install_scripts
+Installing broadcaster script to /home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/tf_broadcaster
+Installing listener script to /home/ubuntu/ros2_ws2/install/tf_broadcaster/lib/tf_broadcaster
+writing list of installed files to '/home/ubuntu/ros2_ws2/build/tf_broadcaster/install.log'

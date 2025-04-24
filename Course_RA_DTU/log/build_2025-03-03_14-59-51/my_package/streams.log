@@ -1,0 +1,32 @@
+[1.115s] Invoking command in '/home/ubuntu/ros2_ws2/build/my_package': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_ws2/build/my_package/build
+[1.442s] running develop
+[1.637s] Removing /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[1.701s] Invoked command in '/home/ubuntu/ros2_ws2/build/my_package' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_ws2/build/my_package/build
+[1.708s] Invoking command in '/home/ubuntu/ros2_ws2/src/my_package': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ubuntu/ros2_ws2/build/my_package/build install --record /home/ubuntu/ros2_ws2/build/my_package/install.log --single-version-externally-managed install_data --force
+[2.010s] running egg_info
+[2.011s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[2.011s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[2.012s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[2.012s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[2.012s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[2.015s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.015s] adding license file 'LICENSE'
+[2.015s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.016s] running build
+[2.016s] running build_py
+[2.016s] running install
+[2.016s] running install_lib
+[2.017s] creating /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package
+[2.017s] copying /home/ubuntu/ros2_ws2/build/my_package/build/lib/my_package/my_node.py -> /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package
+[2.018s] copying /home/ubuntu/ros2_ws2/build/my_package/build/lib/my_package/__init__.py -> /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package
+[2.018s] byte-compiling /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[2.020s] byte-compiling /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[2.021s] running install_data
+[2.021s] copying resource/my_package -> /home/ubuntu/ros2_ws2/install/my_package/share/ament_index/resource_index/packages
+[2.021s] copying package.xml -> /home/ubuntu/ros2_ws2/install/my_package/share/my_package
+[2.021s] running install_egg_info
+[2.024s] Copying ../../build/my_package/my_package.egg-info to /home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[2.026s] running install_scripts
+[2.051s] Installing my_node script to /home/ubuntu/ros2_ws2/install/my_package/lib/my_package
+[2.052s] writing list of installed files to '/home/ubuntu/ros2_ws2/build/my_package/install.log'
+[2.100s] Invoked command in '/home/ubuntu/ros2_ws2/src/my_package' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws2/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws2/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/ubuntu/ros2_ws2/build/my_package/build install --record /home/ubuntu/ros2_ws2/build/my_package/install.log --single-version-externally-managed install_data --force
